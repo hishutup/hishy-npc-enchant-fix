@@ -1,0 +1,12 @@
+{
+  "id": "hishyNpcEnchantFix",
+  "name": "NPC Enchant Fix",
+  "author": "Hishy",
+  "version": "1.0",
+  "released": "11/01/2017",
+  "updated": "11/01/2017",
+  "description": "A simple port of ASIS' NPC Enchant Fix.",
+  "requires": ["unifiedPatchingFramework"],
+  "moduleLoader": "UPF",
+  "canHotLoad": true
+}

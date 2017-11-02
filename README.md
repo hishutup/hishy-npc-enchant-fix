@@ -1,0 +1,1 @@
+A simple port of ASIS' NPC Enchant Fix.
