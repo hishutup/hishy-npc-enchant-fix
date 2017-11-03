@@ -46,7 +46,7 @@ registerPatcher({
 
                 locals.perkData.forEach(function(key) {
                     if (!xelib.HasArrayItem(record, 'Perks', 'Perk', key.Name)) {
-                        let rec = xelib.AddArrayItem(record, 'Perks', 'Perk', String(key.FormID));
+                        let rec = xelib.AddArrayItem(record, 'Perks', 'Perk', key.FormID);
                         xelib.SetValue(rec, 'Rank', key.Rank);
                     }
                 });
